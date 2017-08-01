@@ -22,6 +22,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         Random random = new Random();
         int maxInt = 6;
-        mTVNumber.setText( String.valueOf( random.nextInt() + 1) );
+        mTVNumber.setText( String.valueOf( random.nextInt(maxInt) + 1) );
     }
 }
