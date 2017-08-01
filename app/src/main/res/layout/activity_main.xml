@@ -24,6 +24,7 @@
         android:layout_width="368dp"
         android:layout_height="wrap_content"
         android:text="@string/randomButton"
+        android:onClick="OnClick"
         android:background="@color/buttonBackground"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="353dp" />
